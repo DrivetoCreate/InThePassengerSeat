@@ -1,0 +1,206 @@
+{
+  "name": "itps",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "glyphs": [
+    {
+      "search": [
+        "arrow",
+        "left"
+      ],
+      "code": 8592,
+      "from": 8592,
+      "uid": "qqsxko9kqxh5g53lz33yonkpc2rpkvkn",
+      "css": "left",
+      "orig_css": "left",
+      "orig_code": 8592,
+      "src": "typicons"
+    },
+    {
+      "search": [
+        "arrow",
+        "up"
+      ],
+      "code": 8593,
+      "from": 8593,
+      "uid": "mj2pxhfj0eumtbzirpdokhtzk00480uo",
+      "css": "up",
+      "orig_css": "up",
+      "orig_code": 8593,
+      "src": "typicons"
+    },
+    {
+      "search": [
+        "arrow",
+        "right"
+      ],
+      "code": 8594,
+      "from": 8594,
+      "uid": "4oaz56fmzfvx7vry2o540n9l4z79fz8t",
+      "css": "right",
+      "orig_css": "right",
+      "orig_code": 8594,
+      "src": "typicons"
+    },
+    {
+      "search": [
+        "arrow",
+        "down"
+      ],
+      "code": 8595,
+      "from": 8595,
+      "uid": "xq9z5jujkqhrf97s70hjek6otohmhr1y",
+      "css": "down",
+      "orig_css": "down",
+      "orig_code": 8595,
+      "src": "typicons"
+    },
+    {
+      "search": [
+        "pause",
+        "player"
+      ],
+      "code": 9097,
+      "from": 9097,
+      "uid": "d8d378d0ce413f231dfa37592e39c227",
+      "css": "pause",
+      "orig_css": "pause",
+      "orig_code": 9097,
+      "src": "entypo"
+    },
+    {
+      "search": [
+        "play",
+        "player"
+      ],
+      "code": 9654,
+      "uid": "cb13afd4722a849d48056540bb74c47e",
+      "css": "play",
+      "orig_css": "play",
+      "orig_code": 9654,
+      "src": "entypo",
+      "from": 9654
+    },
+    {
+      "search": [
+        "music",
+        "note",
+        "song"
+      ],
+      "code": 9835,
+      "uid": "fda731b5a4026685e1a9c7e64228e2b2",
+      "css": "note-beamed",
+      "orig_css": "note-beamed",
+      "orig_code": 9835,
+      "src": "entypo",
+      "from": 9835
+    },
+    {
+      "search": [
+        "mail",
+        "email"
+      ],
+      "code": 9993,
+      "uid": "e335adbc2d898c7d85d40c507796e7b4",
+      "css": "mail",
+      "orig_css": "mail",
+      "orig_code": 9993,
+      "src": "entypo",
+      "from": 9993
+    },
+    {
+      "search": [
+        "rss"
+      ],
+      "code": 59194,
+      "uid": "3e617d8049807e128c80d0344ba09e37",
+      "css": "rss",
+      "orig_css": "rss",
+      "orig_code": 59194,
+      "src": "entypo",
+      "from": 59194
+    },
+    {
+      "search": [
+        "download"
+      ],
+      "code": 61486,
+      "uid": "348b04ea17f646fbc6a46e20ebe4fe12",
+      "css": "download",
+      "orig_css": "download",
+      "orig_code": 61486,
+      "src": "mfglabs",
+      "from": 61486
+    },
+    {
+      "search": [
+        "vimeo",
+        "social",
+        "logo"
+      ],
+      "code": 62215,
+      "uid": "6569bd1801e232180221ba0f6a4b8b27",
+      "css": "vimeo-circled",
+      "orig_css": "vimeo-circled",
+      "orig_code": 62215,
+      "src": "entypo",
+      "from": 62215
+    },
+    {
+      "search": [
+        "twitter",
+        "social",
+        "logo"
+      ],
+      "code": 62218,
+      "uid": "0419da6446cb4f31093e2022793571ca",
+      "css": "twitter-circled",
+      "orig_css": "twitter-circled",
+      "orig_code": 62218,
+      "src": "entypo",
+      "from": 62218
+    },
+    {
+      "search": [
+        "facebook",
+        "social",
+        "logo"
+      ],
+      "code": 62221,
+      "uid": "ce1d525f3f31024c6a6b38f5e9a88953",
+      "css": "facebook-circled",
+      "orig_css": "facebook-circled",
+      "orig_code": 62221,
+      "src": "entypo",
+      "from": 62221
+    },
+    {
+      "search": [
+        "linkedin",
+        "social",
+        "logo"
+      ],
+      "code": 62233,
+      "uid": "21adad41ffebf469b2370d26bcb8a3c4",
+      "css": "linkedin-circled",
+      "orig_css": "linkedin-circled",
+      "orig_code": 62233,
+      "src": "entypo",
+      "from": 62233
+    },
+    {
+      "search": [
+        "instagram",
+        "social",
+        "logo"
+      ],
+      "code": 62253,
+      "uid": "0fbfb1cd7a847c88ea4c141d0e1bbdb5",
+      "css": "instagram",
+      "orig_css": "instagram",
+      "orig_code": 62253,
+      "src": "entypo",
+      "from": 62253
+    }
+  ]
+}

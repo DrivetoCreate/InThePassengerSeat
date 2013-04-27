@@ -1,0 +1,78 @@
+body {
+	width: 100%;
+	section.fullBleed {
+		width: 100%;
+		margin: 0;
+		padding: 2em 0;
+		&.gradient {
+			padding: 0;
+		}
+	}
+}
+
+#header {
+	.logo {
+		height: 150px;
+		@media #{$medium} {
+			height: 200px;
+		}
+	}
+	.subscribe {
+		@media #{$medium} {
+			margin-top: 3.5em;
+		}
+	}
+	h1#siteTitle {
+		float: left;
+		width: 97%;
+		margin: 0.25em 0 0 3%;
+		text-transform: uppercase;
+		@media #{$medium} {
+			margin-top: 0;
+		}
+		@media #{$large} {
+			width: 100%;
+			margin-left: 0;
+		}
+	}
+	h2 {
+		float: left;
+		width: 97%;
+		margin: 0.25em 0 1em 3%;
+		font-size: 1.25em;
+		@media #{$medium} {
+			font-size: 2em;
+			margin-top: 0;
+		}
+		@media #{$large} {
+			width: 100%;
+			margin-left: 0;
+		}
+	}
+}
+
+#episodeDetails {
+	background-color: white;
+	padding: 2em 0;
+}
+
+#specialGuest {
+	background-color: $peach;
+	padding: 2em 0;
+	color: $brown;
+	a {
+		color: $brown;
+		&:hover {
+			color: darken($brown, 10%);
+		}
+		&:active {
+			color: darken($brown, 20%);
+		}
+	}
+	> * {
+		margin-left: 1em;
+	}
+	img.guest-pic {
+		max-width: 250px;
+	}
+}

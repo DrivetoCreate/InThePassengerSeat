@@ -1,0 +1,25 @@
+@import "compass/css3/border-radius";
+
+.logo {
+	background-image: url('/images/dtc_logo.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.svg .logo {
+	background-image: url('/images/dtc_logo.svg');
+}
+
+.subscribe a {
+	@include border-radius(3px);
+	display: block;
+	margin: 0 auto;
+	padding: 0.5em 0.25em;
+	text-align: center;
+	&.itunes {
+		background-color: $blue;
+	}
+	&.rss {
+		background-color: $pink;
+	}
+}

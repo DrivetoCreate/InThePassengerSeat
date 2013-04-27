@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'itps';
+  src: url('/font/itps.eot?94822961');
+  src: url('/font/itps.eot?94822961#iefix') format('embedded-opentype'),
+       url('/font/itps.woff?94822961') format('woff'),
+       url('/font/itps.ttf?94822961') format('truetype'),
+       url('/font/itps.svg?94822961#itps') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'itps';
+    src: url('../font/itps.svg?94822961#itps') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "itps";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - magrins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-left:before { content: '\2190'; } /* '←' */
+.icon-up:before { content: '\2191'; } /* '↑' */
+.icon-right:before { content: '\2192'; } /* '→' */
+.icon-down:before { content: '\2193'; } /* '↓' */
+.icon-pause:before { content: '\2389'; } /* '⎉' */
+.icon-play:before { content: '\25b6'; } /* '▶' */
+.icon-note-beamed:before { content: '\266b'; } /* '♫' */
+.icon-mail:before { content: '\2709'; } /* '✉' */
+.icon-rss:before { content: '\e73a'; } /* '' */
+.icon-download:before { content: '\f02e'; } /* '' */
+.icon-vimeo-circled:before { content: '\f307'; } /* '' */
+.icon-twitter-circled:before { content: '\f30a'; } /* '' */
+.icon-facebook-circled:before { content: '\f30d'; } /* '' */
+.icon-linkedin-circled:before { content: '\f319'; } /* '' */
+.icon-instagram:before { content: '\f32d'; } /* '' */
