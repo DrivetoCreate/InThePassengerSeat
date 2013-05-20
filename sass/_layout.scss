@@ -1,6 +1,6 @@
 body {
 	width: 100%;
-	section.fullBleed {
+	.fullBleed {
 		width: 100%;
 		margin: 0;
 		padding: 2em 0;
@@ -53,26 +53,44 @@ body {
 
 #episodeDetails {
 	background-color: white;
-	padding: 2em 0;
+	padding: 2em;
+	nav {
+		float: right;
+		a {
+			padding-left: 10px;
+		}
+	}
+}
+
+.episode {
+	float: left;
+	width: 100%;
+	margin-top: 1.5em;
 }
 
 #specialGuest {
 	background-color: $peach;
-	padding: 2em 0;
+	padding: 2em 1em;
 	color: $brown;
-	a {
+	@media #{$large} {
+		background-color: transparent;
+	}
+}
+
+#hosts {
+	background-color: $teal;
+	color: white;
+	h2 {
+		text-align: center;
 		color: $brown;
-		&:hover {
-			color: darken($brown, 10%);
-		}
-		&:active {
-			color: darken($brown, 20%);
+		@media #{$medium} {
+			text-align: left;
+			margin-bottom: 1em;
 		}
 	}
-	> * {
-		margin-left: 1em;
-	}
-	img.guest-pic {
-		max-width: 250px;
-	}
+}
+
+#info {
+	background-color: $brown;
+	color: $beige;
 }

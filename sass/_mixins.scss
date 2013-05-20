@@ -1,0 +1,19 @@
+@mixin colorStates ($color: $link) {
+	color: $color;
+	&:hover {
+		color: darken($color, 5%);
+	}
+	&:active, &.active {
+		color: darken($color, 10%);
+	}
+}
+
+@mixin backgroundColorStates ($color: $secondary) {
+	background-color: $color;
+		&:hover {
+			background-color: darken($color, 5%);
+		}
+		&:active {
+			background-color: darken($color, 10%);
+		}
+}

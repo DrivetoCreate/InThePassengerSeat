@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="stylesheets/app.css" />
 
   <script src="javascripts/vendor/custom.modernizr.js"></script>
-  <!--[if gte IE 9]>
+    <!--[if gte IE 9]>
 	  <style type="text/css">
 	    .gradient {
 	       filter: none;
@@ -37,73 +37,163 @@
 			</div>
 		</section>
 
-		<section id="episodes" class="fullBleed episodes gradient">
+		<section id="episodes" class="fullBleed gradient">
 			<div class="row">
 				
 				<div id="episodeDetails" class="small-12 large-8 columns">
-
-					<div class="navigation">
-						<a href="#/prev">Previous Episode</a>
-						<a href="#/all">All Episodes</a>
-						<a href="#/next">Next Episode</a>
-					</div>
-
-					<div class="episodeDetails">
-						<span class="episodeDate">April 17, 2013</span>
-						<h3>Episode <span class="episodeNumber">1</span>: <span class="episodeTitle">Why Story Matters</span></h3>
-						<p>Tonx hoodie bicycle rights, direct trade et beard literally jean shorts blue bottle. Forage deserunt DIY chambray, in blue bottle sartorial quinoa aliqua dreamcatcher narwhal nulla semiotics. Voluptate flannel nesciunt pug, art party ea commodo tousled direct trade fingerstache +1 vegan fanny pack. Proident anim jean shorts butcher adipisicing locavore.</p>
+					<nav>
+						<a href="#/prev"><i class="icon-left"></i>Previous Episode</a>
+						<a href="#info">All Episodes<i class="icon-down"></i></a>
+						<a href="#/next">Next Episode<i class="icon-right"></i></a>
+					</nav>
+					<div class="episode">
+						<div class="episode-details">
+							<span class="episodeDate">April 17, 2013</span>
+							<h2>Episode <span class="episodeNumber">1</span>: <span class="episodeTitle">Why Story Matters</span></h2>
+							<p>Tonx hoodie bicycle rights, direct trade et beard literally jean shorts blue bottle. Forage deserunt DIY chambray, in blue bottle sartorial quinoa aliqua dreamcatcher narwhal nulla semiotics. Voluptate flannel nesciunt pug, art party ea commodo tousled direct trade fingerstache +1 vegan fanny pack. Proident anim jean shorts butcher adipisicing locavore.</p>
+						</div>
+						<div class="episode-audio row">
+							<div class="episode-player small-12 large-9 columns">
+								<audio src="http://d45m7n8n320wx.cloudfront.net/episode-1.mp3" id="player" preload="none" />
+							</div>
+							<div class="episode-downloadLink small-12 large-3 columns">
+								<a href="http://d45m7n8n320wx.cloudfront.net/episode-1.mp3" target="_blank" class="download-btn"><i class="icon-download"></i> Download</a>
+							</div>
+						</div>
+						<h4>Mentioned in the Episode:</h4>
+						<ul class="episode-mentions">
+							<a href="http://www.medwish.org">
+								<li>Medwish</li>
+							</a>
+							<a href="http://www.charitywater.org">
+								<li>Charity Water</li>
+							</a>
+							<a href="http://www.4pawsdogs.org">
+								<li>4 Paws for Ability</li>
+							</a>
+						</ul>
+						<h4>Episode Sponsored By:</h4>
+						<ul class="episode-sponsors">
+							<a href="http://www.clearlake.org" class="episode-sponsorLink">
+								<li><img src="/images/sponsors/clearlake.png" alt="Clear Lake Recording Studios Logo"></li>
+							</a>
+						</ul>
 					</div>
 				</div>
 
 				<div id="specialGuest" class="small-12 large-4 columns">
-					<img class="guest-pic" src="/images/people/james_p.png" alt="James Pizarro" />
-					<h4>Special Guest</h4>
-					<h3>James Pizarro <a href="http://twitter.com/jpiz" title="@jpiz"><i class="icon-twitter-circled"></i></a> <a href="mailto:james@redbicycle.com"><i class="icon-mail"></i></a></h3>
-
+					<div class="featuredGuest">
+						<img class="featuredGuest-pic" src="/images/people/james_p.png" alt="James Pizarro" />
+						<h4>Special Guest:</h4>
+						<h3 class="featuredGuest-name">James Pizarro</h3>
+						<div class="featuredGuest-socialLinks">
+							<a href="http://twitter.com/jpiz" title="@jpiz"><i class="icon-twitter-circled"></i></a>
+							<a href="mailto:james@redbicycle.com"><i class="icon-mail-circled"></i></a>
+						</div>
+						<p>Driven by his love of films and the technology that fuels them, the creation of Red Bicycle Media was an easy choice.</p>
+						<p>Pizarro's reputation of being a gadget-geek, and constant need for new gear, is seen through his continuous trolling of Craigslist posts in every city the crew visits.</p>
+					</div>
 				</div>
 
 			</div>
 		</section>
+
+		<section id="hosts" class="fullBleed">
+			<div class="row">
+				<h2 class="small-12 columns">Meet Your Awkward but Lovable Co-Hosts</h2>
+				<div class="small-12 large-6 columns host">
+					<div class="small-8 small-centered large-2 large-uncentered columns">
+						<img src="/images/people/aaron_k.png" alt="Aaron Kaufman">
+					</div>
+					<div class="small-12 large-10 columns">
+						<h3>Aaron Kaufman</h3>
+						<div class="host-socialLinks">
+							<a href="http://twitter.com/jpiz" title="@jpiz"><i class="icon-instagram"></i></a>
+							<a href="mailto:james@redbicycle.com"><i class="icon-linkedin-circled"></i></a>
+							<a href="mailto:james@redbicycle.com"><i class="icon-twitter-circled"></i></a>
+							<a href="mailto:james@redbicycle.com"><i class="icon-mail-circled"></i></a>
+						</div>
+						<p>As the founder of Drive to Create, award-winning designer Aaron Kaufman is committed to using his knowledge of branding and marketing to educate non-profits. He probably would have won a ton of competitions by now, too, if he did that sort of thing.</p>
+					</div>
+				</div>
+				<div class="small-12 large-6 columns host">
+					<div class="small-8 small-centered large-2 large-uncentered columns">
+						<img src="/images/people/brian_m.png" alt="Brian Marks">
+					</div>
+					<div class="small-12 large-10 columns">
+						<h3>Brian Marks</h3>
+						<div class="host-socialLinks">
+							<a href="http://twitter.com/jpiz" title="@jpiz"><i class="icon-instagram"></i></a>
+							<a href="mailto:james@redbicycle.com"><i class="icon-linkedin-circled"></i></a>
+							<a href="mailto:james@redbicycle.com"><i class="icon-twitter-circled"></i></a>
+							<a href="mailto:james@redbicycle.com"><i class="icon-mail-circled"></i></a>
+						</div>
+						<p>Storytelling with passion and personality has been the ongoing mission of award-winning filmmaker Brian Marks. With exposure to a wide-range of projects, his motivation lies in the idea that everybody’s story is their own.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="info" class="fullBleed">
+			<div class="row">
+				<div class="small-12 large-6 columns episodeArchive">
+					<h2>Past Episodes</h2>
+					<select name="pastEpisodes" id="episode-picker">
+						<option value="ep1">Episode 1: Why Story Matters</option>
+					</select>
+					<p>Do you have a rad idea or topic for a future show? <a href="#/contact">Please contact us!</a></p>
+				</div>
+				<div class="small-12 large-6 columns bigInfoLinks">
+					<ul>
+						<a href="#/sponsor">
+							<li>Sponsor a Show <i class="icon-right"></i></li>
+						</a>
+						<a href="http://www.drivetocreate.org">
+							<li>Learn More about DTC <i class="icon-right"></i></li>
+						</a>
+						<a href="#/feedback">
+							<li>Send us Feedback <i class="icon-right"></i></li>
+						</a>
+					</ul>
+				</div>
+			</div>
+		</section>
 	</div>
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
-  '.js><\/script>')
-  </script>
+  <script src='javascripts/vendor/jquery.js'></script>
   
-  <script src="javascripts/foundation/foundation.js"></script>
-	
+	<script src="javascripts/foundation/foundation.js"></script>
 	<script src="javascripts/foundation/foundation.alerts.js"></script>
-	
 	<script src="javascripts/foundation/foundation.clearing.js"></script>
-	
 	<script src="javascripts/foundation/foundation.cookie.js"></script>
-	
 	<script src="javascripts/foundation/foundation.dropdown.js"></script>
-	
 	<script src="javascripts/foundation/foundation.forms.js"></script>
-	
 	<script src="javascripts/foundation/foundation.joyride.js"></script>
-	
 	<script src="javascripts/foundation/foundation.magellan.js"></script>
-	
 	<script src="javascripts/foundation/foundation.orbit.js"></script>
-	
 	<script src="javascripts/foundation/foundation.placeholder.js"></script>
-	
 	<script src="javascripts/foundation/foundation.reveal.js"></script>
-	
 	<script src="javascripts/foundation/foundation.section.js"></script>
-	
 	<script src="javascripts/foundation/foundation.tooltips.js"></script>
-	
 	<script src="javascripts/foundation/foundation.topbar.js"></script>
 	
   <script src="javascripts/jquery.fittext.js"></script>
+  <script src="javascripts/mediaelement-and-player.min.js"></script>
   <script>
     $(document).foundation();
 	$("h1#siteTitle").fitText(1.29);
+	
+	var player = new MediaElementPlayer('#player', {
+		audioWidth: '100%',
+		features: ['playpause', 'progress', 'current', 'duration'],
+		iPadUseNativeControls: false,
+	    iPhoneUseNativeControls: false, 
+	    AndroidUseNativeControls: false
+	});
+
+	//player.pause();
+	player.setSrc('http://d45m7n8n320wx.cloudfront.net/episode-1.mp3');
+	//player.play();
   </script>
 </body>
 </html>

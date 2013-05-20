@@ -46,9 +46,16 @@
 @import "compass/css3/images";
 // @import "compass/utilities/color";
 @import "colors";
+@import "mixins";
 @import "fonts";
 @import "components";
 @import "layout";
+@import "modules";
+@import "mediaelementplayer";
+
+a {
+	@include colorStates;
+}
 
 #header {
 	background-color: $brown;
@@ -58,13 +65,24 @@
 	h1, h2, * {
 		color: white;
 	}
+	h2 {
+		font-family: "Open Sans", sans-serif;
+		font-weight: 300;
+	}
 }
 
 #episodes {
-	background-color: white; // Old browsers
+	background-color: $peach; // Old browsers
 	//@include filter-gradient(white, $peach, horizontal); // IE6-8
 	// IE9 SVG, needs conditional override of 'filter' to 'none'
 	$experimental-support-for-svg: true;
-	@include background-image(linear-gradient(left, white 50%, $peach 50%));
+	@media #{$medium} {
+		@include background-image(linear-gradient(left, white 66.6666666%, $peach 66.6666666%));
+	}
+	> .row {
+		@media #{$large} {
+			@include background-image(linear-gradient(left, white 66.6666666%, $peach 66.6666666%));
+		}
+	}
 }
 

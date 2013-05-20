@@ -1,0 +1,163 @@
+.featuredGuest {
+	a {
+		@include colorStates($brown);
+	}
+	.featuredGuest-pic {
+		width: 100%;
+		max-width: 250px;
+		margin-bottom: 1em;
+	}
+	h3, h4 {
+		color: $brown;
+	}
+	h4 {
+		font-size: 0.9em;
+		margin: 0;
+	}
+	.featuredGuest-name {
+		font-size: 1.7em;
+		margin-top: 0;
+		float: left;
+	}
+	.featuredGuest-socialLinks {
+		float: left;
+		margin-left: 0.5em;
+		a {
+			font-size: 1.5em;
+			line-height: 1.5em;
+		}
+	}
+	p {
+		color: white;
+		float: left;
+		font-weight: 300;
+		font-size: 0.9em;
+	}
+}
+
+.episode {
+	h2, h3, h4, h5, h6, p, span {
+		color: $primary;
+	}
+	p {
+		font-weight: 300;
+	}
+	ul {
+		list-style: none;
+	}
+	.episode-sponsorLink {
+		display: inline-block;
+		float: left;
+		margin: 0 1em 1em 0;
+	}
+	.episode-player {
+		padding-right: 8px;
+	}
+}
+
+.host {
+	h3 {
+		color: white;
+		float: left;
+		text-align: center;
+		width: 100%;
+		@media #{$medium} {
+			width: auto;
+			text-align: left;
+		}
+	}
+	img {
+		margin: 2em auto 0;
+		display: block;
+		@media #{$medium} {
+			margin: 0;
+			display: inline-block;
+		}
+	}
+	.host-socialLinks {
+		width: 100%;
+		float: left;
+		text-align: center;
+		margin-bottom: 0.5em;
+		@media #{$medium} {
+			text-align: left;
+			width: auto;
+			margin-left: 0.5em;
+			margin-bottom: auto;
+		}
+		a {
+			@include colorStates($brown);
+			@media #{$medium} {
+				font-size: 1.2em;
+				line-height: 2.7em;
+			}
+		}
+	}
+	p {
+		font-weight: 300;
+		float: left;
+		width: 100%;
+		line-height: 1.25em;
+	}
+}
+
+.episodeArchive {
+	h2, p {
+		color: $beige;
+	}
+	p {
+		font-weight: 300;
+	}
+	a {
+		text-decoration: underline;
+		@include colorStates($beige);
+	}
+}
+
+.bigInfoLinks {
+	ul {
+		list-style: none;
+	}
+	a {
+		@include colorStates($blue);
+		font-size: 1.4em;
+		line-height: 2em;
+		font-family: 'Glegoo', serif;
+		font-weight: 400;
+		@media #{$medium} {
+			font-size: 1.8em;
+		}
+		@media #{$large} {
+			font-size: 2em;
+		}
+	}
+}
+
+.download-btn {
+	@include backgroundColorStates($pink);
+	@include colorStates(white);
+	border-radius: $global-radius;
+	padding: $global-radius;
+	font-weight: 300;
+	white-space: nowrap;
+	line-height: 40px;
+}
+
+.mejs-button.mejs-playpause-button {
+	cursor: pointer;
+}
+
+.mejs-button.mejs-playpause-button.mejs-pause:after, .mejs-button.mejs-playpause-button.mejs-play:after {
+	@include iconFont;
+	color: white;
+	font-size: 2em;
+	line-height: 40px;
+
+}
+.mejs-button.mejs-playpause-button.mejs-pause:after {
+	content:  '\2389';
+}
+
+.mejs-button.mejs-playpause-button.mejs-play:after {
+	content: '\25b6';
+}

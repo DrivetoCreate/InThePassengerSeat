@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* line 220, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_global.scss */
 *,
 *:before,
@@ -2302,8 +2301,8 @@ button.large, .button.large {
   }
   /* line 210, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_buttons.scss */
   button.radius, .button.radius {
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
   }
   /* line 211, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_buttons.scss */
   button.round, .button.round {
@@ -2415,24 +2414,24 @@ label.inline {
 .prefix.button.radius {
   -webkit-border-radius: 0;
   border-radius: 0;
-  -moz-border-radius-bottomleft: 3px;
-  -moz-border-radius-topleft: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -webkit-border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 /* line 275, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_forms.scss */
 .postfix.button.radius {
   -webkit-border-radius: 0;
   border-radius: 0;
-  -moz-border-radius-topright: 3px;
-  -moz-border-radius-bottomright: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /* line 276, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_forms.scss */
@@ -2471,12 +2470,12 @@ span.prefix {
 span.prefix.radius {
   -webkit-border-radius: 0;
   border-radius: 0;
-  -moz-border-radius-bottomleft: 3px;
-  -moz-border-radius-topleft: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -webkit-border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 /* line 283, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_forms.scss */
@@ -2490,32 +2489,32 @@ span.postfix {
 span.postfix.radius {
   -webkit-border-radius: 0;
   border-radius: 0;
-  -moz-border-radius-topright: 3px;
-  -moz-border-radius-bottomright: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /* Input groups will automatically style first and last elements of the group */
 /* line 290, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_forms.scss */
 .input-group.radius > *:first-child, .input-group.radius > *:first-child * {
-  -moz-border-radius-bottomleft: 3px;
-  -moz-border-radius-topleft: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -webkit-border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 /* line 293, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_forms.scss */
 .input-group.radius > *:last-child, .input-group.radius > *:last-child * {
-  -moz-border-radius-topright: 3px;
-  -moz-border-radius-bottomright: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 /* line 298, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_forms.scss */
 .input-group.round > *:first-child, .input-group.round > *:first-child * {
@@ -2970,21 +2969,21 @@ form.custom .custom.disabled {
 }
 /* line 52, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_button-groups.scss */
 .button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button {
-  -moz-border-radius-bottomleft: 3px;
-  -moz-border-radius-topleft: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -webkit-border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 /* line 56, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_button-groups.scss */
 .button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button {
-  -moz-border-radius-topright: 3px;
-  -moz-border-radius-bottomright: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 /* line 52, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_button-groups.scss */
 .button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button {
@@ -3277,12 +3276,12 @@ form.custom .custom.disabled {
 }
 /* line 162, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_split-buttons.scss */
 .split.button.radius span {
-  -moz-border-radius-topright: 3px;
-  -moz-border-radius-bottomright: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 /* line 163, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_split-buttons.scss */
 .split.button.round span {
@@ -4806,8 +4805,8 @@ form.custom .custom.disabled {
 }
 /* line 98, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_alert-boxes.scss */
 .alert-box.radius {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 /* line 99, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_alert-boxes.scss */
 .alert-box.round {
@@ -4845,8 +4844,8 @@ form.custom .custom.disabled {
   border-width: 1px;
   background-color: #f6f6f6;
   border-color: gainsboro;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 /* line 119, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > * {
@@ -4922,8 +4921,8 @@ kbd {
   font-family: "Consolas", "Menlo", "Courier", monospace;
   font-size: 0.9375em;
   padding: 0.125em 0.25em 0em;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 
 /* Labels */
@@ -4943,8 +4942,8 @@ kbd {
 }
 /* line 76, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_labels.scss */
 .label.radius {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 /* line 77, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_labels.scss */
 .label.round {
@@ -5112,8 +5111,8 @@ kbd {
 }
 /* line 69, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_panels.scss */
 .panel.radius {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 
 /* Pricing Tables */
@@ -5209,13 +5208,13 @@ kbd {
 }
 /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_progress-bars.scss */
 .progress.radius {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 /* line 61, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_progress-bars.scss */
 .progress.radius .meter {
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
 }
 /* line 64, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_progress-bars.scss */
 .progress.round {
@@ -5611,8 +5610,8 @@ table tfoot tr td {
 }
 /* line 41, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_thumbs.scss */
 .th.radius {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 
 /* line 43, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_thumbs.scss */
@@ -5652,8 +5651,8 @@ a.th {
   width: 100%;
   color: white;
   background: black;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 /* line 58, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/zurb-foundation-4.1.5/scss/foundation/components/_tooltips.scss */
 .tooltip > .nub {
@@ -5842,8 +5841,8 @@ a.th {
 
 @font-face {
   font-family: 'itps';
-  src: url("/font/itps.eot?94822961");
-  src: url("/font/itps.eot?94822961#iefix") format("embedded-opentype"), url("/font/itps.woff?94822961") format("woff"), url("/font/itps.ttf?94822961") format("truetype"), url("/font/itps.svg?94822961#itps") format("svg");
+  src: url("/font/itps.eot?91309514");
+  src: url("/font/itps.eot?91309514#iefix") format("embedded-opentype"), url("/font/itps.woff?91309514") format("woff"), url("/font/itps.ttf?91309514") format("truetype"), url("/font/itps.svg?91309514#itps") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -5854,11 +5853,11 @@ a.th {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'itps';
-    src: url('../font/itps.svg?94822961#itps') format('svg');
+    src: url('../font/itps.svg?91309514#itps') format('svg');
   }
 }
 */
-/* line 22, ../sass/_fontello.scss */
+/* line 53, ../sass/_fontello.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "itps";
   font-style: normal;
@@ -5884,104 +5883,94 @@ a.th {
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-/* line 53, ../sass/_fontello.scss */
+/* line 57, ../sass/_fontello.scss */
 .icon-left:before {
   content: '\2190';
 }
 
-/* '←' */
-/* line 54, ../sass/_fontello.scss */
+/* line 58, ../sass/_fontello.scss */
 .icon-up:before {
   content: '\2191';
 }
 
-/* '↑' */
-/* line 55, ../sass/_fontello.scss */
+/* line 59, ../sass/_fontello.scss */
 .icon-right:before {
   content: '\2192';
 }
 
-/* '→' */
-/* line 56, ../sass/_fontello.scss */
+/* line 60, ../sass/_fontello.scss */
 .icon-down:before {
   content: '\2193';
 }
 
-/* '↓' */
-/* line 57, ../sass/_fontello.scss */
+/* line 61, ../sass/_fontello.scss */
 .icon-pause:before {
   content: '\2389';
 }
 
-/* '⎉' */
-/* line 58, ../sass/_fontello.scss */
+/* line 62, ../sass/_fontello.scss */
 .icon-play:before {
   content: '\25b6';
 }
 
-/* '▶' */
-/* line 59, ../sass/_fontello.scss */
+/* line 63, ../sass/_fontello.scss */
 .icon-note-beamed:before {
   content: '\266b';
 }
 
-/* '♫' */
-/* line 60, ../sass/_fontello.scss */
+/* line 64, ../sass/_fontello.scss */
 .icon-mail:before {
   content: '\2709';
 }
 
-/* '✉' */
-/* line 61, ../sass/_fontello.scss */
+/* line 65, ../sass/_fontello.scss */
 .icon-rss:before {
   content: '\e73a';
 }
 
-/* '' */
-/* line 62, ../sass/_fontello.scss */
+/* line 66, ../sass/_fontello.scss */
 .icon-download:before {
   content: '\f02e';
 }
 
-/* '' */
-/* line 63, ../sass/_fontello.scss */
+/* line 67, ../sass/_fontello.scss */
 .icon-vimeo-circled:before {
   content: '\f307';
 }
 
-/* '' */
-/* line 64, ../sass/_fontello.scss */
+/* line 68, ../sass/_fontello.scss */
 .icon-twitter-circled:before {
   content: '\f30a';
 }
 
-/* '' */
-/* line 65, ../sass/_fontello.scss */
+/* line 69, ../sass/_fontello.scss */
 .icon-facebook-circled:before {
   content: '\f30d';
 }
 
-/* '' */
-/* line 66, ../sass/_fontello.scss */
+/* line 70, ../sass/_fontello.scss */
 .icon-linkedin-circled:before {
   content: '\f319';
 }
 
-/* '' */
-/* line 67, ../sass/_fontello.scss */
+/* line 71, ../sass/_fontello.scss */
 .icon-instagram:before {
   content: '\f32d';
 }
 
-/* '' */
+/* line 72, ../sass/_fontello.scss */
+.icon-mail-circled:before {
+  content: '\e800';
+}
+
 /* line 3, ../sass/_fonts.scss */
-body, h2 {
+body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
 /* line 8, ../sass/_fonts.scss */
-h1, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
   font-family: "Glegoo", serif;
   font-weight: 400;
 }
@@ -6014,9 +6003,25 @@ h1, h3, h4, h5 {
 .subscribe a.itunes {
   background-color: #078ac1;
 }
+/* line 13, ../sass/_mixins.scss */
+.subscribe a.itunes:hover {
+  background-color: #0678a8;
+}
+/* line 16, ../sass/_mixins.scss */
+.subscribe a.itunes:active {
+  background-color: #056790;
+}
 /* line 22, ../sass/_components.scss */
 .subscribe a.rss {
   background-color: #c93b66;
+}
+/* line 13, ../sass/_mixins.scss */
+.subscribe a.rss:hover {
+  background-color: #b8335b;
+}
+/* line 16, ../sass/_mixins.scss */
+.subscribe a.rss:active {
+  background-color: #a42d51;
 }
 
 /* line 1, ../sass/_layout.scss */
@@ -6024,13 +6029,13 @@ body {
   width: 100%;
 }
 /* line 3, ../sass/_layout.scss */
-body section.fullBleed {
+body .fullBleed {
   width: 100%;
   margin: 0;
   padding: 2em 0;
 }
 /* line 7, ../sass/_layout.scss */
-body section.fullBleed.gradient {
+body .fullBleed.gradient {
   padding: 0;
 }
 
@@ -6095,56 +6100,867 @@ body section.fullBleed.gradient {
 /* line 54, ../sass/_layout.scss */
 #episodeDetails {
   background-color: white;
-  padding: 2em 0;
+  padding: 2em;
+}
+/* line 57, ../sass/_layout.scss */
+#episodeDetails nav {
+  float: right;
+}
+/* line 59, ../sass/_layout.scss */
+#episodeDetails nav a {
+  padding-left: 10px;
 }
 
-/* line 59, ../sass/_layout.scss */
+/* line 65, ../sass/_layout.scss */
+.episode {
+  float: left;
+  width: 100%;
+  margin-top: 1.5em;
+}
+
+/* line 71, ../sass/_layout.scss */
 #specialGuest {
   background-color: #f26a50;
-  padding: 2em 0;
+  padding: 2em 1em;
   color: #54301a;
 }
-/* line 63, ../sass/_layout.scss */
-#specialGuest a {
-  color: #54301a;
-}
-/* line 65, ../sass/_layout.scss */
-#specialGuest a:hover {
-  color: #2d1a0e;
-}
-/* line 68, ../sass/_layout.scss */
-#specialGuest a:active {
-  color: #060302;
-}
-/* line 72, ../sass/_layout.scss */
-#specialGuest > * {
-  margin-left: 1em;
-}
-/* line 75, ../sass/_layout.scss */
-#specialGuest img.guest-pic {
-  max-width: 250px;
+@media only screen and (min-width: 62.5em) {
+  /* line 71, ../sass/_layout.scss */
+  #specialGuest {
+    background-color: transparent;
+  }
 }
 
-/* line 53, ../sass/app.scss */
+/* line 80, ../sass/_layout.scss */
+#hosts {
+  background-color: #259998;
+  color: white;
+}
+/* line 83, ../sass/_layout.scss */
+#hosts h2 {
+  text-align: center;
+  color: #54301a;
+}
+@media only screen and (min-width: 45em) {
+  /* line 83, ../sass/_layout.scss */
+  #hosts h2 {
+    text-align: left;
+    margin-bottom: 1em;
+  }
+}
+
+/* line 93, ../sass/_layout.scss */
+#info {
+  background-color: #54301a;
+  color: #ebcead;
+}
+
+/* line 2, ../sass/_modules.scss */
+.featuredGuest a {
+  color: #54301a;
+}
+/* line 3, ../sass/_mixins.scss */
+.featuredGuest a:hover {
+  color: #412514;
+}
+/* line 6, ../sass/_mixins.scss */
+.featuredGuest a:active, .featuredGuest a.active {
+  color: #2d1a0e;
+}
+/* line 5, ../sass/_modules.scss */
+.featuredGuest .featuredGuest-pic {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 1em;
+}
+/* line 10, ../sass/_modules.scss */
+.featuredGuest h3, .featuredGuest h4 {
+  color: #54301a;
+}
+/* line 13, ../sass/_modules.scss */
+.featuredGuest h4 {
+  font-size: 0.9em;
+  margin: 0;
+}
+/* line 17, ../sass/_modules.scss */
+.featuredGuest .featuredGuest-name {
+  font-size: 1.7em;
+  margin-top: 0;
+  float: left;
+}
+/* line 22, ../sass/_modules.scss */
+.featuredGuest .featuredGuest-socialLinks {
+  float: left;
+  margin-left: 0.5em;
+}
+/* line 25, ../sass/_modules.scss */
+.featuredGuest .featuredGuest-socialLinks a {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+/* line 30, ../sass/_modules.scss */
+.featuredGuest p {
+  color: white;
+  float: left;
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+/* line 39, ../sass/_modules.scss */
+.episode h2, .episode h3, .episode h4, .episode h5, .episode h6, .episode p, .episode span {
+  color: #54301a;
+}
+/* line 42, ../sass/_modules.scss */
+.episode p {
+  font-weight: 300;
+}
+/* line 45, ../sass/_modules.scss */
+.episode ul {
+  list-style: none;
+}
+/* line 48, ../sass/_modules.scss */
+.episode .episode-sponsorLink {
+  display: inline-block;
+  float: left;
+  margin: 0 1em 1em 0;
+}
+/* line 53, ../sass/_modules.scss */
+.episode .episode-player {
+  padding-right: 8px;
+}
+
+/* line 59, ../sass/_modules.scss */
+.host h3 {
+  color: white;
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+@media only screen and (min-width: 45em) {
+  /* line 59, ../sass/_modules.scss */
+  .host h3 {
+    width: auto;
+    text-align: left;
+  }
+}
+/* line 69, ../sass/_modules.scss */
+.host img {
+  margin: 2em auto 0;
+  display: block;
+}
+@media only screen and (min-width: 45em) {
+  /* line 69, ../sass/_modules.scss */
+  .host img {
+    margin: 0;
+    display: inline-block;
+  }
+}
+/* line 77, ../sass/_modules.scss */
+.host .host-socialLinks {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+@media only screen and (min-width: 45em) {
+  /* line 77, ../sass/_modules.scss */
+  .host .host-socialLinks {
+    text-align: left;
+    width: auto;
+    margin-left: 0.5em;
+    margin-bottom: auto;
+  }
+}
+/* line 88, ../sass/_modules.scss */
+.host .host-socialLinks a {
+  color: #54301a;
+}
+/* line 3, ../sass/_mixins.scss */
+.host .host-socialLinks a:hover {
+  color: #412514;
+}
+/* line 6, ../sass/_mixins.scss */
+.host .host-socialLinks a:active, .host .host-socialLinks a.active {
+  color: #2d1a0e;
+}
+@media only screen and (min-width: 45em) {
+  /* line 88, ../sass/_modules.scss */
+  .host .host-socialLinks a {
+    font-size: 1.2em;
+    line-height: 2.7em;
+  }
+}
+/* line 96, ../sass/_modules.scss */
+.host p {
+  font-weight: 300;
+  float: left;
+  width: 100%;
+  line-height: 1.25em;
+}
+
+/* line 105, ../sass/_modules.scss */
+.episodeArchive h2, .episodeArchive p {
+  color: #ebcead;
+}
+/* line 108, ../sass/_modules.scss */
+.episodeArchive p {
+  font-weight: 300;
+}
+/* line 111, ../sass/_modules.scss */
+.episodeArchive a {
+  text-decoration: underline;
+  color: #ebcead;
+}
+/* line 3, ../sass/_mixins.scss */
+.episodeArchive a:hover {
+  color: #e6c298;
+}
+/* line 6, ../sass/_mixins.scss */
+.episodeArchive a:active, .episodeArchive a.active {
+  color: #e1b584;
+}
+
+/* line 118, ../sass/_modules.scss */
+.bigInfoLinks ul {
+  list-style: none;
+}
+/* line 121, ../sass/_modules.scss */
+.bigInfoLinks a {
+  color: #078ac1;
+  font-size: 1.4em;
+  line-height: 2em;
+  font-family: "Glegoo", serif;
+  font-weight: 400;
+}
+/* line 3, ../sass/_mixins.scss */
+.bigInfoLinks a:hover {
+  color: #0678a8;
+}
+/* line 6, ../sass/_mixins.scss */
+.bigInfoLinks a:active, .bigInfoLinks a.active {
+  color: #056790;
+}
+@media only screen and (min-width: 45em) {
+  /* line 121, ../sass/_modules.scss */
+  .bigInfoLinks a {
+    font-size: 1.8em;
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  /* line 121, ../sass/_modules.scss */
+  .bigInfoLinks a {
+    font-size: 2em;
+  }
+}
+
+/* line 136, ../sass/_modules.scss */
+.download-btn {
+  background-color: #c93b66;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 300;
+  white-space: nowrap;
+  line-height: 40px;
+}
+/* line 13, ../sass/_mixins.scss */
+.download-btn:hover {
+  background-color: #b8335b;
+}
+/* line 16, ../sass/_mixins.scss */
+.download-btn:active {
+  background-color: #a42d51;
+}
+/* line 3, ../sass/_mixins.scss */
+.download-btn:hover {
+  color: #f2f2f2;
+}
+/* line 6, ../sass/_mixins.scss */
+.download-btn:active, .download-btn.active {
+  color: #e6e6e6;
+}
+
+/* line 146, ../sass/_modules.scss */
+.mejs-button.mejs-playpause-button {
+  cursor: pointer;
+}
+
+/* line 150, ../sass/_modules.scss */
+.mejs-button.mejs-playpause-button.mejs-pause:after, .mejs-button.mejs-playpause-button.mejs-play:after {
+  font-family: "itps";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - magrins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  color: white;
+  font-size: 2em;
+  line-height: 40px;
+}
+
+/* line 157, ../sass/_modules.scss */
+.mejs-button.mejs-playpause-button.mejs-pause:after {
+  content: '\2389';
+}
+
+/* line 161, ../sass/_modules.scss */
+.mejs-button.mejs-playpause-button.mejs-play:after {
+  content: '\25b6';
+}
+
+/* line 1, ../sass/_mediaelementplayer.scss */
+.mejs-container {
+  position: relative;
+  background-color: #54301a;
+  font-family: Helvetica, Arial;
+  text-align: left;
+  vertical-align: top;
+  text-indent: 0;
+  border-radius: 10px;
+}
+
+/* line 11, ../sass/_mediaelementplayer.scss */
+.me-plugin {
+  position: absolute;
+}
+
+/* line 15, ../sass/_mediaelementplayer.scss */
+.mejs-embed, .mejs-embed body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+/* line 24, ../sass/_mediaelementplayer.scss */
+.mejs-container-fullscreen {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+/* Start: LAYERS */
+/* line 35, ../sass/_mediaelementplayer.scss */
+.mejs-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 40, ../sass/_mediaelementplayer.scss */
+.mejs-mediaelement {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 47, ../sass/_mediaelementplayer.scss */
+.mejs-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 52, ../sass/_mediaelementplayer.scss */
+.mejs-poster img {
+  border: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+/* line 58, ../sass/_mediaelementplayer.scss */
+.mejs-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 63, ../sass/_mediaelementplayer.scss */
+.mejs-overlay-play {
+  cursor: pointer;
+}
+
+/* line 66, ../sass/_mediaelementplayer.scss */
+.mejs-overlay-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -50px 0 0 -50px;
+  background: url(bigplay.svg) no-repeat;
+}
+
+/* line 75, ../sass/_mediaelementplayer.scss */
+.no-svg .mejs-overlay-button {
+  background-image: url(bigplay.png);
+}
+
+/* line 78, ../sass/_mediaelementplayer.scss */
+.mejs-overlay:hover .mejs-overlay-button {
+  background-position: 0 -100px;
+}
+
+/* line 81, ../sass/_mediaelementplayer.scss */
+.mejs-overlay-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  margin: -40px 0 0 -40px;
+  background: #333;
+  background: url(background.png);
+  background: rgba(0, 0, 0, 0.9);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(50, 50, 50, 0.9)), to(rgba(0, 0, 0, 0.9)));
+  background: -webkit-linear-gradient(top, rgba(50, 50, 50, 0.9), rgba(0, 0, 0, 0.9));
+  background: -moz-linear-gradient(top, rgba(50, 50, 50, 0.9), rgba(0, 0, 0, 0.9));
+  background: -o-linear-gradient(top, rgba(50, 50, 50, 0.9), rgba(0, 0, 0, 0.9));
+  background: -ms-linear-gradient(top, rgba(50, 50, 50, 0.9), rgba(0, 0, 0, 0.9));
+  background: linear-gradient(rgba(50, 50, 50, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+/* line 98, ../sass/_mediaelementplayer.scss */
+.mejs-overlay-loading span {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: transparent url(loading.gif) 50% 50% no-repeat;
+}
+
+/* End: LAYERS */
+/* Start: CONTROL BAR */
+/* line 108, ../sass/_mediaelementplayer.scss */
+.mejs-container .mejs-controls {
+  position: absolute;
+  background: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+}
+
+/* line 119, ../sass/_mediaelementplayer.scss */
+.mejs-container .mejs-controls div {
+  list-style-type: none;
+  background-image: none;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 26px;
+  height: 26px;
+  font-size: 11px;
+  line-height: 11px;
+  background: 0;
+  font-family: Helvetica, Arial;
+  border: 0;
+}
+
+/* End: CONTROL BAR */
+/* Start: Time (current / duration) */
+/* line 138, ../sass/_mediaelementplayer.scss */
+.mejs-container .mejs-controls .mejs-time {
+  color: #fff;
+  display: block;
+  height: 17px;
+  width: auto;
+  padding: 14px 3px 0 3px;
+  overflow: hidden;
+  text-align: center;
+  padding: auto 4px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 151, ../sass/_mediaelementplayer.scss */
+.mejs-container .mejs-controls .mejs-time span {
+  font-size: 11px;
+  color: #fff;
+  line-height: 12px;
+  display: block;
+  float: left;
+  margin: 1px 2px 0 0;
+  width: auto;
+}
+
+/* End: Time (current / duration) */
+/* Start: Play/pause */
+/* line 164, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-play button:before {
+  content: '\25b6';
+}
+
+/* line 167, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-pause button:before {
+  content: ''\2389'';
+}
+
+/* End: Play/pause */
+/* Stop */
+/* line 174, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-stop button {
+  background-position: -112px 0;
+}
+
+/* End: Play/pause */
+/* Start: Progress bar */
+/* line 180, ../sass/_mediaelementplayer.scss */
+.mejs-controls div.mejs-time-rail {
+  width: 200px;
+  padding-top: 10px;
+}
+
+/* line 184, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-time-rail span {
+  display: block;
+  position: absolute;
+  width: 180px;
+  height: 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* line 194, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-time-rail .mejs-time-total {
+  margin: 5px;
+  background-color: white;
+}
+
+/* line 198, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-time-rail .mejs-time-buffering {
+  width: 100%;
+  background-color: #2fc2c1;
+}
+
+/* line 203, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+  background-color: lightgray;
+  width: 0;
+}
+
+/* line 207, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-time-rail .mejs-time-current {
+  width: 0;
+  background-color: #078ac1;
+}
+
+/* line 212, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-time-rail .mejs-time-handle {
+  display: none;
+  position: absolute;
+  margin: 0;
+  width: 10px;
+  background: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: solid 2px #333333;
+  top: -2px;
+  text-align: center;
+}
+
+/* line 227, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-time-rail .mejs-time-float {
+  position: absolute;
+  display: none;
+  background: #eee;
+  width: 36px;
+  height: 17px;
+  border: solid 1px #333333;
+  top: -26px;
+  margin-left: -18px;
+  text-align: center;
+  color: #111;
+}
+
+/* line 240, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-time-rail .mejs-time-float-current {
+  margin: 2px;
+  width: 30px;
+  display: block;
+  text-align: center;
+  left: 0;
+}
+
+/* line 248, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-time-rail .mejs-time-float-corner {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: solid 5px #eeeeee;
+  border-color: #eeeeee transparent transparent transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  top: 15px;
+  left: 13px;
+}
+
+/*
+.mejs-controls .mejs-time-rail:hover .mejs-time-handle {
+	visibility:visible;
+}
+*/
+/* End: Progress bar */
+/* line 271, ../sass/_mediaelementplayer.scss */
+.mejs-clear {
+  clear: both;
+}
+
+/* Start: ERROR */
+/* line 278, ../sass/_mediaelementplayer.scss */
+.me-cannotplay a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 282, ../sass/_mediaelementplayer.scss */
+.me-cannotplay span {
+  padding: 15px;
+  display: block;
+}
+
+/* End: ERROR */
+/* Start: backlight */
+/* line 289, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-backlight-off button {
+  background-position: -80px -16px;
+}
+
+/* line 292, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-backlight-on button {
+  background-position: -80px 0;
+}
+
+/* End: backlight */
+/* context menu */
+/* line 299, ../sass/_mediaelementplayer.scss */
+.mejs-contextmenu {
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+  border-radius: 4px;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border: solid 1px #999999;
+  z-index: 1001;
+  /* make sure it shows on fullscreen */
+}
+
+/* line 310, ../sass/_mediaelementplayer.scss */
+.mejs-contextmenu .mejs-contextmenu-separator {
+  height: 1px;
+  font-size: 0;
+  margin: 5px 6px;
+  background: #333;
+}
+
+/* line 317, ../sass/_mediaelementplayer.scss */
+.mejs-contextmenu .mejs-contextmenu-item {
+  font-family: Helvetica, Arial;
+  font-size: 12px;
+  padding: 4px 6px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* line 324, ../sass/_mediaelementplayer.scss */
+.mejs-contextmenu .mejs-contextmenu-item:hover {
+  background: #2C7C91;
+  color: #fff;
+}
+
+/* Start: SourceChooser */
+/* line 331, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-sourcechooser-button {
+  position: relative;
+}
+
+/* line 335, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-sourcechooser-button button {
+  background-position: -128px 0;
+}
+
+/* line 338, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector {
+  visibility: hidden;
+  position: absolute;
+  bottom: 26px;
+  right: -10px;
+  width: 130px;
+  height: 100px;
+  background: url(background.png);
+  background: rgba(50, 50, 50, 0.7);
+  border: solid 1px transparent;
+  padding: 10px;
+  overflow: hidden;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 355, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  list-style-type: none !important;
+  overflow: hidden;
+}
+
+/* line 362, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li {
+  margin: 0 0 6px 0;
+  padding: 0;
+  list-style-type: none !important;
+  display: block;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* line 370, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input {
+  clear: both;
+  float: left;
+  margin: 3px 3px 0 5px;
+}
+
+/* line 375, ../sass/_mediaelementplayer.scss */
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label {
+  width: 100px;
+  float: left;
+  padding: 4px 0 0 0;
+  line-height: 15px;
+  font-family: helvetica, arial;
+  font-size: 10px;
+}
+
+/* End: SourceChooser */
+/* Start: Postroll */
+/* line 387, ../sass/_mediaelementplayer.scss */
+.mejs-postroll-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(background.png);
+  background: rgba(50, 50, 50, 0.7);
+  z-index: 1000;
+  overflow: hidden;
+}
+
+/* line 398, ../sass/_mediaelementplayer.scss */
+.mejs-postroll-layer-content {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 402, ../sass/_mediaelementplayer.scss */
+.mejs-postroll-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(background.png);
+  background: rgba(50, 50, 50, 0.7);
+  color: #fff;
+  padding: 4px;
+  z-index: 100;
+  cursor: pointer;
+}
+
+/* End: Postroll */
+/* line 56, ../sass/app.scss */
+a {
+  color: #078ac1;
+}
+/* line 3, ../sass/_mixins.scss */
+a:hover {
+  color: #0678a8;
+}
+/* line 6, ../sass/_mixins.scss */
+a:active, a.active {
+  color: #056790;
+}
+
+/* line 60, ../sass/app.scss */
 #header {
   background-color: #54301a;
   background-image: url("/images/banner.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 58, ../sass/app.scss */
+/* line 65, ../sass/app.scss */
 #header h1, #header h2, #header * {
   color: white;
 }
+/* line 68, ../sass/app.scss */
+#header h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
 
-/* line 63, ../sass/app.scss */
+/* line 74, ../sass/app.scss */
 #episodes {
-  background-color: white;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YyNmE1MCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(50%, #ffffff), color-stop(50%, #f26a50));
-  background-image: -webkit-linear-gradient(left, #ffffff 50%, #f26a50 50%);
-  background-image: -moz-linear-gradient(left, #ffffff 50%, #f26a50 50%);
-  background-image: -o-linear-gradient(left, #ffffff 50%, #f26a50 50%);
-  background-image: linear-gradient(left, #ffffff 50%, #f26a50 50%);
+  background-color: #f26a50;
+}
+@media only screen and (min-width: 45em) {
+  /* line 74, ../sass/app.scss */
+  #episodes {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSI2Ni42NjY2NyUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48c3RvcCBvZmZzZXQ9IjY2LjY2NjY3JSIgc3RvcC1jb2xvcj0iI2YyNmE1MCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(66.66667%, #ffffff), color-stop(66.66667%, #f26a50));
+    background-image: -webkit-linear-gradient(left, #ffffff 66.66667%, #f26a50 66.66667%);
+    background-image: -moz-linear-gradient(left, #ffffff 66.66667%, #f26a50 66.66667%);
+    background-image: -o-linear-gradient(left, #ffffff 66.66667%, #f26a50 66.66667%);
+    background-image: linear-gradient(left, #ffffff 66.66667%, #f26a50 66.66667%);
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  /* line 82, ../sass/app.scss */
+  #episodes > .row {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iNTAlIiB4Mj0iMTAwJSIgeTI9IjUwJSI+PHN0b3Agb2Zmc2V0PSI2Ni42NjY2NyUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48c3RvcCBvZmZzZXQ9IjY2LjY2NjY3JSIgc3RvcC1jb2xvcj0iI2YyNmE1MCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(66.66667%, #ffffff), color-stop(66.66667%, #f26a50));
+    background-image: -webkit-linear-gradient(left, #ffffff 66.66667%, #f26a50 66.66667%);
+    background-image: -moz-linear-gradient(left, #ffffff 66.66667%, #f26a50 66.66667%);
+    background-image: -o-linear-gradient(left, #ffffff 66.66667%, #f26a50 66.66667%);
+    background-image: linear-gradient(left, #ffffff 66.66667%, #f26a50 66.66667%);
+  }
 }

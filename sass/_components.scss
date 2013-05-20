@@ -17,9 +17,9 @@
 	padding: 0.5em 0.25em;
 	text-align: center;
 	&.itunes {
-		background-color: $blue;
+		@include backgroundColorStates($blue);
 	}
 	&.rss {
-		background-color: $pink;
+		@include backgroundColorStates($pink);
 	}
 }
