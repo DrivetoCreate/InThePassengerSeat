@@ -10,7 +10,6 @@
   <title>In the Passenger Seat | A Drive to Create Podcast</title>
 
   <link rel="stylesheet" href="stylesheets/normalize.css" />
-  
   <link rel="stylesheet" href="stylesheets/app.css" />
 
   <script src="javascripts/vendor/custom.modernizr.js"></script>
@@ -41,58 +40,11 @@
 			<div class="row">
 				
 				<div id="episodeDetails" class="small-12 large-8 columns">
-					<nav>
-						<a href="#/prev"><i class="icon-left"></i>Previous Episode</a>
-						<a href="#info">All Episodes<i class="icon-down"></i></a>
-						<a href="#/next">Next Episode<i class="icon-right"></i></a>
-					</nav>
-					<div class="episode">
-						<div class="episode-details">
-							<span class="episodeDate">April 17, 2013</span>
-							<h2>Episode <span class="episodeNumber">1</span>: <span class="episodeTitle">Why Story Matters</span></h2>
-							<p>Tonx hoodie bicycle rights, direct trade et beard literally jean shorts blue bottle. Forage deserunt DIY chambray, in blue bottle sartorial quinoa aliqua dreamcatcher narwhal nulla semiotics. Voluptate flannel nesciunt pug, art party ea commodo tousled direct trade fingerstache +1 vegan fanny pack. Proident anim jean shorts butcher adipisicing locavore.</p>
-						</div>
-						<div class="episode-audio row">
-							<div class="episode-player small-12 large-9 columns">
-								<audio src="http://d45m7n8n320wx.cloudfront.net/episode-1.mp3" id="player" preload="none" />
-							</div>
-							<div class="episode-downloadLink small-12 large-3 columns">
-								<a href="http://d45m7n8n320wx.cloudfront.net/episode-1.mp3" target="_blank" class="download-btn"><i class="icon-download"></i> Download</a>
-							</div>
-						</div>
-						<h4>Mentioned in the Episode:</h4>
-						<ul class="episode-mentions">
-							<a href="http://www.medwish.org">
-								<li>Medwish</li>
-							</a>
-							<a href="http://www.charitywater.org">
-								<li>Charity Water</li>
-							</a>
-							<a href="http://www.4pawsdogs.org">
-								<li>4 Paws for Ability</li>
-							</a>
-						</ul>
-						<h4>Episode Sponsored By:</h4>
-						<ul class="episode-sponsors">
-							<a href="http://www.clearlake.org" class="episode-sponsorLink">
-								<li><img src="/images/sponsors/clearlake.png" alt="Clear Lake Recording Studios Logo"></li>
-							</a>
-						</ul>
-					</div>
+					
 				</div>
 
 				<div id="specialGuest" class="small-12 large-4 columns">
-					<div class="featuredGuest">
-						<img class="featuredGuest-pic" src="/images/people/james_p.png" alt="James Pizarro" />
-						<h4>Special Guest:</h4>
-						<h3 class="featuredGuest-name">James Pizarro</h3>
-						<div class="featuredGuest-socialLinks">
-							<a href="http://twitter.com/jpiz" title="@jpiz"><i class="icon-twitter-circled"></i></a>
-							<a href="mailto:james@redbicycle.com"><i class="icon-mail-circled"></i></a>
-						</div>
-						<p>Driven by his love of films and the technology that fuels them, the creation of Red Bicycle Media was an easy choice.</p>
-						<p>Pizarro's reputation of being a gadget-geek, and constant need for new gear, is seen through his continuous trolling of Craigslist posts in every city the crew visits.</p>
-					</div>
+					
 				</div>
 
 			</div>
@@ -136,14 +88,14 @@
 
 		<section id="info" class="fullBleed">
 			<div class="row">
-				<div class="small-12 large-6 columns episodeArchive">
+				<div class="small-12 large-5 columns episodeArchive">
 					<h2>Past Episodes</h2>
 					<select name="pastEpisodes" id="episode-picker">
-						<option value="ep1">Episode 1: Why Story Matters</option>
+						<option value="">Loading...</option>
 					</select>
 					<p>Do you have a rad idea or topic for a future show? <a href="#/contact">Please contact us!</a></p>
 				</div>
-				<div class="small-12 large-6 columns bigInfoLinks">
+				<div class="small-12 large-6 large-offset-1 columns bigInfoLinks">
 					<ul>
 						<a href="#/sponsor">
 							<li>Sponsor a Show <i class="icon-right"></i></li>
@@ -158,6 +110,17 @@
 				</div>
 			</div>
 		</section>
+		<footer>
+			<a href="#" data-reveal-id="acknowledgements">Technology &amp; Acknowledgements</a>
+		</footer>
+
+		<div id="acknowledgements" class="reveal-modal medium">
+			<ul>
+				<li>Entypo pictograms by Daniel Bruce &mdash; <a href="http://www.entypo.com" title="Entypo">www.entypo.com</a></li>
+				<li>Typicon pictograms by Stephen Hutchings &mdash; <a href="http://typicons.com/" title="Typicons">typicons.com</a></li>
+			</ul>
+			<a class="close-reveal-modal">&times;</a>
+		</div>
 	</div>
 
   <script src='javascripts/vendor/jquery.js'></script>
@@ -179,21 +142,76 @@
 	
   <script src="javascripts/jquery.fittext.js"></script>
   <script src="javascripts/mediaelement-and-player.min.js"></script>
+  <script src="javascripts/vendor/sammy.js"></script>
+  <script src="javascripts/vendor/handlebars.js"></script>
   <script>
     $(document).foundation();
 	$("h1#siteTitle").fitText(1.29);
-	
-	var player = new MediaElementPlayer('#player', {
-		audioWidth: '100%',
-		features: ['playpause', 'progress', 'current', 'duration'],
-		iPadUseNativeControls: false,
-	    iPhoneUseNativeControls: false, 
-	    AndroidUseNativeControls: false
-	});
+  </script>
 
-	//player.pause();
-	player.setSrc('http://d45m7n8n320wx.cloudfront.net/episode-1.mp3');
-	//player.play();
+  <script src="http://www.parsecdn.com/js/parse-1.2.7.min.js"></script>
+  <script type="text/javascript">
+  	Parse.initialize("sPIh9Dinb7kAaEDfv97dndhpHG78J59GkcZvSpv9", "iEERgZViUrgNNaK5Dpol7AzXa0C8x2UUJ18e2rEJ");
+  </script>
+  <script src="/javascripts/plugins.js"></script>
+  <script src="/javascripts/script.js"></script>
+
+  <script type="text/x-handlebars-template" id="episode-view-template" >
+  	<nav>
+		<a href="#/prev"><i class="icon-left"></i>Previous Episode</a>
+		<a href="#info">All Episodes<i class="icon-down"></i></a>
+		<a href="#/next">Next Episode<i class="icon-right"></i></a>
+	</nav>
+	<div class="episode">
+		<div class="episode-details">
+			<span class="episodeDate">{{#prettyDate recordingDate}}{{/prettyDate}}</span>
+			<h2>Episode <span class="episodeNumber">{{ episodeNumber }}</span>: <span class="episodeTitle">{{ title }}</span></h2>
+			<p>{{ description }}</p>
+		</div>
+		<div class="episode-audio row">
+			<div class="episode-player small-12 large-9 columns">
+				<audio src="{{ audioLink }}" id="player" preload="none" />
+			</div>
+			<div class="episode-downloadLink small-12 large-3 columns">
+				<a href="{{ audioLink }}" target="_blank" class="download-btn"><i class="icon-download"></i> Download</a>
+			</div>
+		</div>
+		<h4>Mentioned in the Episode:</h4>
+		<ul class="episode-mentions">
+
+		</ul>
+		<h4>Episode Sponsored By:</h4>
+		<ul class="episode-sponsors">
+			
+		</ul>
+	</div>
+  </script>
+  <script type="text/x-handlebars-template" id="guest-view-template">
+  	<div class="featuredGuest">
+		<img class="featuredGuest-pic" src="{{ picture.url }}" alt="{{ name }}" />
+		<h4>Special Guest:</h4>
+		<h3 class="featuredGuest-name">{{ name }}</h3>
+		<div class="featuredGuest-socialLinks">
+			{{#if twitter}}<a href="http://twitter.com/{{ twitter }}" title="@{{ twitter }}"><i class="icon-twitter-circled"></i></a>{{/if}}
+			{{#if facebook}}<a href="{{ facebook }}" title="{{ name }} on Facebook"><i class="icon-facebook-circled"></i></a>{{/if}}
+			{{#if email}}<a href="mailto:{{ email }}" title="Email {{ name }}"><i class="icon-mail-circled"></i></a>{{/if}}
+		</div>
+		<p>{{ bio }}</p>
+	</div>
+  </script>
+
+  <script type="text/x-handlebars-template" id="episode-picker-template">
+  	<option value="{{objectId}}">Episode {{episodeNumber}}: {{title}}</option>
+  </script>
+
+  <script type="text/x-handlebars-template" id="episode-mentions-template">
+  	<li><a href="{{link}}">{{name}}</a></li>
+  </script>
+
+  <script type="text/x-handlebars-template" id="episode-sponsors-template">
+  	<a href="{{ link }}" class="episode-sponsorLink">
+		<li><img src="{{ logo.url }}" alt="{{ name }}"></li>
+	</a>
   </script>
 </body>
 </html>

@@ -6228,8 +6228,18 @@ body .fullBleed.gradient {
 .episode .episode-player {
   padding-right: 8px;
 }
+/* line 56, ../sass/_modules.scss */
+.episode .episode-downloadLink {
+  margin: 1em 0;
+}
+@media only screen and (min-width: 45em) {
+  /* line 56, ../sass/_modules.scss */
+  .episode .episode-downloadLink {
+    margin: 0;
+  }
+}
 
-/* line 59, ../sass/_modules.scss */
+/* line 65, ../sass/_modules.scss */
 .host h3 {
   color: white;
   float: left;
@@ -6237,25 +6247,25 @@ body .fullBleed.gradient {
   width: 100%;
 }
 @media only screen and (min-width: 45em) {
-  /* line 59, ../sass/_modules.scss */
+  /* line 65, ../sass/_modules.scss */
   .host h3 {
     width: auto;
     text-align: left;
   }
 }
-/* line 69, ../sass/_modules.scss */
+/* line 75, ../sass/_modules.scss */
 .host img {
   margin: 2em auto 0;
   display: block;
 }
 @media only screen and (min-width: 45em) {
-  /* line 69, ../sass/_modules.scss */
+  /* line 75, ../sass/_modules.scss */
   .host img {
     margin: 0;
     display: inline-block;
   }
 }
-/* line 77, ../sass/_modules.scss */
+/* line 83, ../sass/_modules.scss */
 .host .host-socialLinks {
   width: 100%;
   float: left;
@@ -6263,7 +6273,7 @@ body .fullBleed.gradient {
   margin-bottom: 0.5em;
 }
 @media only screen and (min-width: 45em) {
-  /* line 77, ../sass/_modules.scss */
+  /* line 83, ../sass/_modules.scss */
   .host .host-socialLinks {
     text-align: left;
     width: auto;
@@ -6271,7 +6281,7 @@ body .fullBleed.gradient {
     margin-bottom: auto;
   }
 }
-/* line 88, ../sass/_modules.scss */
+/* line 94, ../sass/_modules.scss */
 .host .host-socialLinks a {
   color: #54301a;
 }
@@ -6284,13 +6294,13 @@ body .fullBleed.gradient {
   color: #2d1a0e;
 }
 @media only screen and (min-width: 45em) {
-  /* line 88, ../sass/_modules.scss */
+  /* line 94, ../sass/_modules.scss */
   .host .host-socialLinks a {
     font-size: 1.2em;
     line-height: 2.7em;
   }
 }
-/* line 96, ../sass/_modules.scss */
+/* line 102, ../sass/_modules.scss */
 .host p {
   font-weight: 300;
   float: left;
@@ -6298,15 +6308,15 @@ body .fullBleed.gradient {
   line-height: 1.25em;
 }
 
-/* line 105, ../sass/_modules.scss */
+/* line 111, ../sass/_modules.scss */
 .episodeArchive h2, .episodeArchive p {
   color: #ebcead;
 }
-/* line 108, ../sass/_modules.scss */
+/* line 114, ../sass/_modules.scss */
 .episodeArchive p {
   font-weight: 300;
 }
-/* line 111, ../sass/_modules.scss */
+/* line 117, ../sass/_modules.scss */
 .episodeArchive a {
   text-decoration: underline;
   color: #ebcead;
@@ -6320,11 +6330,11 @@ body .fullBleed.gradient {
   color: #e1b584;
 }
 
-/* line 118, ../sass/_modules.scss */
+/* line 124, ../sass/_modules.scss */
 .bigInfoLinks ul {
   list-style: none;
 }
-/* line 121, ../sass/_modules.scss */
+/* line 127, ../sass/_modules.scss */
 .bigInfoLinks a {
   color: #078ac1;
   font-size: 1.4em;
@@ -6341,19 +6351,19 @@ body .fullBleed.gradient {
   color: #056790;
 }
 @media only screen and (min-width: 45em) {
-  /* line 121, ../sass/_modules.scss */
+  /* line 127, ../sass/_modules.scss */
   .bigInfoLinks a {
     font-size: 1.8em;
   }
 }
 @media only screen and (min-width: 62.5em) {
-  /* line 121, ../sass/_modules.scss */
+  /* line 127, ../sass/_modules.scss */
   .bigInfoLinks a {
     font-size: 2em;
   }
 }
 
-/* line 136, ../sass/_modules.scss */
+/* line 142, ../sass/_modules.scss */
 .download-btn {
   background-color: #c93b66;
   color: white;
@@ -6380,12 +6390,12 @@ body .fullBleed.gradient {
   color: #e6e6e6;
 }
 
-/* line 146, ../sass/_modules.scss */
+/* line 152, ../sass/_modules.scss */
 .mejs-button.mejs-playpause-button {
   cursor: pointer;
 }
 
-/* line 150, ../sass/_modules.scss */
+/* line 156, ../sass/_modules.scss */
 .mejs-button.mejs-playpause-button.mejs-pause:after, .mejs-button.mejs-playpause-button.mejs-play:after {
   font-family: "itps";
   font-style: normal;
@@ -6414,12 +6424,12 @@ body .fullBleed.gradient {
   line-height: 40px;
 }
 
-/* line 157, ../sass/_modules.scss */
+/* line 163, ../sass/_modules.scss */
 .mejs-button.mejs-playpause-button.mejs-pause:after {
   content: '\2389';
 }
 
-/* line 161, ../sass/_modules.scss */
+/* line 167, ../sass/_modules.scss */
 .mejs-button.mejs-playpause-button.mejs-play:after {
   content: '\25b6';
 }

@@ -53,6 +53,12 @@
 	.episode-player {
 		padding-right: 8px;
 	}
+	.episode-downloadLink {
+		margin: 1em 0;
+		@media #{$medium} {
+			margin: 0;
+		}
+	}
 }
 
 .host {
